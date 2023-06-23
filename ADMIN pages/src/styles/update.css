@@ -1,0 +1,91 @@
+*{
+    font-family: Trebuchet MS;
+    box-sizing: border-box;
+    font-family: trebuchet ms;
+    margin: 10;
+    padding: 0;
+  }
+
+
+    
+  /*----------------search bars*-----------------*/
+  
+  .input_box
+  {
+    width: 300px;
+    height: 30px;
+    border: 1px solid rgba(128, 128, 128, 0.666);
+    border-radius: 10px;
+    transition: 0.4s;
+    font-size: 17px;
+    padding: 5px;
+    font-size: medium;
+    
+  }
+  
+  
+ .input_box:hover
+  { outline: none;
+    border-color: tomato;
+    box-shadow: 0 0 10px tomato;
+  
+
+  }
+  
+  /*----------------button-----------------*/
+  .btn
+  {
+    width: 200px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    font-size: 17px;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  .btn:hover
+  {
+    color: black;
+    background-color: tomato;
+  }
+
+  .nav_btn
+  {
+    width: 200px;
+    height: 30px;
+    color: white;
+    background-color: rgb(0, 37, 247);
+    font-size: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  .nav_btn:hover
+  {
+    color: rgb(253, 252, 252);
+    background-color: rgb(59, 147, 255);
+  }
+  
+
+
+    /* Style the counter cards */
+.card {
+    width: 50%;
+    box-shadow: 0 10px 30px;
+    padding: 70px 0;
+    text-align: center;
+    background: rgb(217, 217, 217);
+    background-color: rgb(204, 203, 203);
+    border: 0.5px solid rgb(169, 168, 168);
+    border-radius: 20px;
+    box-shadow: 0px 0px  #818181; 
+    transition: 0.4s;
+    margin-top: 150px;
+    margin-left: 400px
+    
+    
+  }
+  
+.card:hover
+  {
+    box-shadow:20px 30px 40px #818181;
+  }

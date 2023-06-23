@@ -1,0 +1,106 @@
+*{
+   font-family:Trebuchet MS;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border: none;
+   text-decoration: none;
+}
+
+.btn,
+.delete-btn{
+   width: 30%;
+   border-radius: 5px;
+   padding:10px 30px;
+   color:#fff;
+   display: block;
+   text-align: center;
+   cursor: pointer;
+   font-size: 20px;
+   margin-top: 10px;
+   margin-left: 400px;
+}
+
+.btn{
+   background-color: #3498db;
+}
+
+.btn:hover{
+   background-color: #2980b9;
+}
+
+.delete-btn{
+   background-color: #e74c3c;
+}
+
+.delete-btn:hover{
+   background-color: #c0392b;
+}
+
+.message{
+   margin:10px 0;
+   width: 100%;
+   border-radius: 5px;
+   padding:10px;
+   text-align: center;
+   background-color:#e74c3c;
+   color:#fff;
+   font-size: 20px;
+}
+
+
+.update-profile{
+   min-height: 100vh;
+   background-color: #eee;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+}
+
+.update-profile form{
+   padding:20px;
+   background-color:#fff;
+   box-shadow:0 5px 10px rgba(0,0,0,.1);
+   text-align: center;
+   width: 700px;
+   text-align: center;
+   border-radius: 5px;
+}
+
+.update-profile form img{
+   height: 200px;
+   width: 200p;
+   border-radius: 50%;
+   object-fit: cover;
+   margin-bottom: 5px;
+}
+
+.update-profile form .flex{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 20px;
+   gap:15px;
+}
+
+.update-profile form .flex .inputBox{
+   width: 49%;
+}
+
+.update-profile form .flex .inputBox span{
+   text-align: left;
+   display: block;
+   margin-top: 15px;
+   font-size: 17px;
+   color:#333;
+}
+
+.update-profile form .flex .inputBox .box{
+   width: 100%;
+   border-radius: 5px;
+   background-color:#eee;
+   padding:12px 14px;
+   font-size: 17px;
+   color:#333;
+   margin-top: 10px;
+}
+
